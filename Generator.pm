@@ -12,10 +12,11 @@ use File::Spec::Functions qw(catfile);
 use File::Temp qw(tempdir);
 use IO::CaptureOutput qw(capture_exec);
 use Image::Random;
+use Video::Delay::Const;
 use Video::Pattern;
 
 # Version.
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Constructor.
 sub new {
@@ -262,6 +263,7 @@ L<File::Spec::Functions>,
 L<File::Temp>,
 L<IO::CaptureOutput>,
 L<Image::Random>,
+L<Video::Delay::Const>,
 L<Video::Pattern>.
 
 =head1 SEE ALSO
@@ -285,6 +287,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
